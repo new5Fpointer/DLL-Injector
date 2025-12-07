@@ -1,2 +1,15 @@
 # DLL-Injector
- DLL 注入项目
+ 研究 Dll 远程注入
+## 特点：
+ 使用共享内存传输数据
+ 自动更新检测
+## 编译
+  - `InjectDLL.cpp`使用[mingw](https://www.mingw-w64.org/)编译
+  - `Injector.cpp`使用`MSVC`编译
+
+  用什么编译器应该没关系……
+ ## 使用
+  1. cd 到 exe 目录
+  2. 在命令行中打开
+  3. 运行`.\Injector.exe <PID> <DLL路径>
+  
